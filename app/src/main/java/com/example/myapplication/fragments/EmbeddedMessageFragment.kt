@@ -43,7 +43,7 @@ class EmbeddedMessageFragment : Fragment(), IterableEmbeddedUpdateHandler {
     }
 
     private fun checkAndDisplayMessages() {
-        val messages = embeddedManager.getMessages(12345678910) // Replace with your placement ID
+        val messages = embeddedManager.getMessages(12345678910) // dummy placement id
         val container = view?.findViewById<ViewGroup>(R.id.placeholder_view)
 
         if (messages.isNullOrEmpty()) {

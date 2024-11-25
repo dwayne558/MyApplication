@@ -21,7 +21,7 @@ class CustomApplication : Application(), IterableCustomActionHandler  {
             .setCustomActionHandler(this)
             .setEnableEmbeddedMessaging(true)
             .setUseInMemoryStorageForInApps(true)
-            .setPushIntegrationName("APP") // Optional if using push notifications
+            .setPushIntegrationName("APP")
             .build()
 
         IterableApi.initialize( this,"15161afb186b4b56847c4970fed7e5dc", iterableConfig)
